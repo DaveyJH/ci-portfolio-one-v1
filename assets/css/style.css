@@ -7,7 +7,38 @@ body {
     font-family: "Oxygen", Arial, Helvetica, sans-serif;
 }
 
+/* title and nav elements */
 header {
     font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* title */
+#header-background {
+    width: 100%;
+}
+
+#big-name {
+    text-align: center;
+    font-size: 280%;
+    margin: 5% 0 0;
+}
+
+/* nav */
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 17.5%;
+}
+
+#menu ul {
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+}
+
+#menu p:nth-of-type(n+2) {
+    visibility: hidden;
+    position: absolute;
 }
 
