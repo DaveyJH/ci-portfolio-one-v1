@@ -7,6 +7,8 @@ body {
     font-family: "Oxygen", Arial, Helvetica, sans-serif;
     color: #D84300;
     background-color: darkslategray;
+    height: 100%;
+    position: relative;
 }
 
 /* title and nav elements */
@@ -25,6 +27,11 @@ header {
     font-size: max(5.4vh, 39px);
     margin: 10px 0 20px;
     letter-spacing: 0.3vw;
+}
+
+#surname {
+    visibility: hidden;
+    position: absolute;
 }
 
 /* nav */
@@ -46,6 +53,10 @@ header {
 #menu p:nth-of-type(n+2) {
     visibility: hidden;
     position: absolute;
+}
+
+a {
+    color: darkslategrey;
 }
 
 /* content */
@@ -70,4 +81,20 @@ header {
 
 #tag-two {
     text-align: right;
+}
+
+/* footer */
+footer { 
+    height: max(7.5vh, 45px);
+    position: fixed;
+    bottom: 0px;
+    line-height: max(7.5vh, 45px);   
+}
+
+#footer {
+    width: 66vw;
+}
+
+#footer * {
+    display: inline;
 }
