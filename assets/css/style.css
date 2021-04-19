@@ -20,7 +20,7 @@ header {
 
 #big-name {
     text-align: center;
-    font-size: 280%;
+    font-size: max(5.8vh, 30px);
     margin: 5% 0 0;
 }
 
@@ -50,15 +50,17 @@ header {
     background-position: 42%; 
     background-size: 1296px 864px; 
     overflow: hidden;
-    padding: 25px 45px;
+    padding: 25px 30px;
     box-sizing: border-box;
 }
 
 #content p {
     color: #D84300;
-    font-size: 1.7em;
+    font-size: max(3.5vh, 24.5px);
     font-style: oblique;
     margin: 2.5vh 0;
+    background-color: rgba(8, 8, 8, 0.4);
+    border-radius: 5px;
 }
 
 #tag-two {
