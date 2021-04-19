@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+}
+
