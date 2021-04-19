@@ -1,30 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu&family=Commissioner&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     border: none;
     font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    color: #D84300;
+    background-color: darkslategray;
 }
 
 /* title and nav elements */
 header {
-    font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: "Commissioner", Arial, Helvetica, sans-serif;   
 }
 
 /* title */
 #header-background {
     width: 100%;
+    background-color: darkslategray;
 }
 
 #big-name {
     text-align: center;
-    font-size: max(5.8vh, 30px);
-    margin: 5% 0 0;
+    font-size: max(5.4vh, 39px);
+    margin: 10px 0 20px;
+    letter-spacing: 0.3vw;
 }
 
 /* nav */
+#nav-bar {
+    background-color: #d86508;
+}
 #menu li {
     list-style-type: none;
     display: inline-block;
@@ -55,7 +61,6 @@ header {
 }
 
 #content p {
-    color: #D84300;
     font-size: max(3.5vh, 24.5px);
     font-style: oblique;
     margin: 2.5vh 0;
