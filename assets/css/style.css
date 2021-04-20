@@ -79,24 +79,12 @@ h1 {
 #nav-bar p {
     margin: 10px 0;
 }
-/* hover in nav */
-#nav-bar div:hover p:nth-of-type(2) {
-    visibility: visible;
-    color: #DD7827;
-    font-size: smaller;
-    text-shadow: 1px 1px 1px rgb(80, 25, 0), -1px -1px 1px rgb(80, 25, 0);
-    right: 2.5%;
-    /* may need to revisit for obscure portrait screens */
-    top: 17%;
-    z-index: 2;
-}
 
 /* set styling for active page in nav bar */
 #active {
     animation-name: color-fade;
     animation-duration: 2s; 
     color: #DD7827;
-    font-size: 70%;
     position: relative;
 }
 /* stop text moving on active hover */
@@ -106,21 +94,6 @@ h1 {
     color: #063449;
     text-shadow: none;
     top: 2px;
-}
-#active p:nth-of-type(2) {
-    animation-name: color-fill;
-    animation-duration: 5s;
-    visibility: visible;
-    position: relative;
-    top: 2px;
-    color: #063449;
-    white-space: nowrap;
-}
-#active .icon {
-    position: absolute;
-    bottom: 3px;
-    left: 50%;
-    margin-left: -20px;
 }
 
 /* create color fade animation from dark text to a shade lighter than nav bar */
@@ -275,7 +248,7 @@ button {
     height: 42px;
     margin-left: 15%;
     margin-right: 15%;
-    width: 30%;
+    width: min(300px, 30%);
     border: 3px rgba(8, 8, 8, 0.4) outset;
     border-top: none;
     border-left: 1.2px rgba(8, 8, 8, 0.4) outset;
@@ -338,4 +311,48 @@ button i {
         width: min(280px, 100%);
     }
 }
-
+/* screen wider than 450px */
+@media screen and (min-width: 450px){
+    /* hover in nav */
+    #nav-bar div:hover p:nth-of-type(2) {
+    visibility: visible;
+    color: #DD7827;
+    font-size: smaller;
+    text-shadow: 1px 1px 1px rgb(80, 25, 0), -1px -1px 1px rgb(80, 25, 0);
+    right: 2.5%;
+    /* may need to revisit for obscure portrait screens */
+    top: 17%;
+    z-index: 2;
+    }
+    /* set styling for active page in nav bar */
+    #active {
+        animation-name: color-fade;
+        animation-duration: 2s; 
+        color: #DD7827;
+        font-size: 70%;
+        position: relative;
+    }
+    /* stop text moving on active hover */
+    #active:hover>a>p:nth-of-type(2) {
+        right: 0;
+        font-size: 100%;
+        color: #063449;
+        text-shadow: none;
+        top: 2px;
+    }
+    #active p:nth-of-type(2) {
+        animation-name: color-fill;
+        animation-duration: 5s;
+        visibility: visible;
+        position: relative;
+        top: 2px;
+        color: #063449;
+        white-space: nowrap;
+    }
+    #active .icon {
+        position: absolute;
+        bottom: 3px;
+        left: 50%;
+        margin-left: -20px;
+    }
+}
