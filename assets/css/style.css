@@ -91,10 +91,8 @@ footer {
     line-height: max(7.5vh, 45px);   
 }
 
-#footer {
+#footer-spacing {
     width: 66vw;
 }
 
-#footer * {
-    display: inline;
-}
+
