@@ -215,10 +215,16 @@ button {
     border: 3px rgba(8, 8, 8, 0.4) outset;
     border-top: none;
     border-left: 1.2px rgba(8, 8, 8, 0.4) outset;
-    box-shadow: rgba(255, 80, 0, 0.7) 0 1px 7px;
+    box-shadow: rgba(255, 80, 0) 2px 3px 17px, rgba(255, 80, 0) -2px 3px 17px;
     /* shadow animation */
-    animation: shadow-shiver 1s ease 5s 5 alternate forwards;
+    animation: shadow-shiver 2s ease 4.7s 3;
     box-sizing: border-box;
+}
+button:hover {
+    box-shadow: rgba(255, 0, 0) 2px 3px 17px, rgba(255, 0, 0) -2px 3px 17px;
+}
+button:active {
+    box-shadow: rgba(80, 255, 0) 2px 3px 17px, rgba(80, 255, 0) -2px 3px 17px;
 }
 button span {
     margin: 10%;
@@ -236,9 +242,12 @@ button i {
 /* shadow animaton */
 @keyframes shadow-shiver {
     from {
+        box-shadow: rgba(255, 80, 0) 2px 3px 17px, rgba(255, 80, 0) -2px 3px 17px;
+    }
+    50% {
         box-shadow:  rgba(255, 80, 0, 0.7) 0 1px 7px;
     }
     to {
-        box-shadow: rgba(255, 80, 0) 2px 3px 20px, rgba(255, 80, 0) -2px 3px 20px;
+        box-shadow: rgba(255, 80, 0) 2px 3px 17px, rgba(255, 80, 0) -2px 3px 17px;
     }
 }
