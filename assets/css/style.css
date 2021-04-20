@@ -68,10 +68,10 @@ h1 {
     width: 17.5%;
 }
 
-.active {
+#active {
     animation-name: color-fade;
-    animation-duration: 1.5s; 
-    color: #E28C46;
+    animation-duration: 2s; 
+    color: #DD7827;
 }
 
 /* create color fade animation */
@@ -80,15 +80,17 @@ h1 {
         color: #063449;
     }
     to {
-        color: #E28C46;
+        color: #DD7827;
     }
 }
+
 
 /* hide names */
 #menu p:nth-of-type(n+2) {
     visibility: hidden;
     position: absolute;
 }
+
 
 /* content */
 #content {
