@@ -142,9 +142,50 @@ h1 {
     border-radius: 5px;
 }
 
+#tag-one {
+    left: 120%;
+}
+
 #tag-two {
     text-align: right;
+    right: 120%;
 }
+
+/* tag line animations */
+@keyframes text-reveal-right {
+    from {
+        left: 120%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@keyframes text-reveal-left {
+    from {
+        right: 120%;
+    }
+    to {
+        right: 0;
+    }
+}
+
+#tag-one {
+    animation-name: text-reveal-right;
+    animation-delay: 500ms;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+#tag-two {
+    animation-name: text-reveal-left;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
 
 
 
