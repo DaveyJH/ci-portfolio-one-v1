@@ -94,7 +94,7 @@ h1 {
     position: absolute;
     bottom: 3px;
     left: 50%;
-    margin-left: -12.5px;
+    margin-left: -20px;
 }
 
 /* create color fade animation from dark text to a shade lighter than nav bar */
