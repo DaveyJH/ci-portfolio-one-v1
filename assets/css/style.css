@@ -56,19 +56,16 @@ h1 {
     visibility: hidden;
     position: absolute;
 }
-
 #nav-bar ul {
     margin: 0 auto;
     padding-left: 0;
     text-align: center;
 }
-
 #nav-bar li {
     list-style-type: none;
     display: inline-block;
     width: 17.5%;
 }
-
 #nav-bar p {
     margin: 10px 0;
 }
@@ -81,8 +78,6 @@ h1 {
     font-size: 70%;
     position: relative;
 }
-
-/* animation tests */
 #active p:nth-of-type(2) {
     animation-name: color-fill;
     animation-duration: 5s;
@@ -98,7 +93,7 @@ h1 {
     margin-left: -12.5px;
 }
 
-/* create color fade animation from dark text to shade lighter than nav bar */
+/* create color fade animation from dark text to a shade lighter than nav bar */
 @keyframes color-fade {
     from {
         color: #063449;
@@ -118,7 +113,7 @@ h1 {
     }
 }
 
-/* content */
+/* main content */
 #content {
     width: 100%;
     height: 77.5vh;    
@@ -133,7 +128,8 @@ h1 {
     color: #D84300;
 }
 
-#content p {
+/* tag lines */
+.tag {
     position: relative;
     font-size: max(3.5vh, 24.5px);
     font-style: oblique;
@@ -141,11 +137,9 @@ h1 {
     background-color: rgba(8, 8, 8, 0.4);
     border-radius: 5px;
 }
-
 #tag-one {
     left: 120%;
 }
-
 #tag-two {
     text-align: right;
     right: 120%;
@@ -160,7 +154,6 @@ h1 {
         left: 0;
     }
 }
-
 @keyframes text-reveal-left {
     from {
         right: 120%;
@@ -169,7 +162,6 @@ h1 {
         right: 0;
     }
 }
-
 #tag-one {
     animation-name: text-reveal-right;
     animation-delay: 500ms;
@@ -177,7 +169,6 @@ h1 {
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
-
 #tag-two {
     animation-name: text-reveal-left;
     animation-delay: 2s;
@@ -185,9 +176,6 @@ h1 {
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
-
-
-
 
 /* footer */
 footer { 
@@ -200,13 +188,11 @@ footer {
     z-index: 2;
     font-size: 1.6em;
 }
-
 #footer-spacing {
     margin: 0 auto;
     text-align: center;
     height: max(7.5vh, 45px);
 }
-
 button {
     color: #084966;
     font-weight: 700;
