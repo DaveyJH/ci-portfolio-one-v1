@@ -5,8 +5,8 @@ body {
     padding: 0;
     border: none;
     font-family: "Oxygen", Arial, Helvetica, sans-serif;
-    color: #D84300;
-    background-color: darkslategray;
+    color: #d86508;
+    background-color: rgba(8, 8, 8, 0.4);
     height: 100%;
     position: relative;
 }
@@ -17,15 +17,19 @@ header {
 }
 
 /* title */
+h1 {
+    margin: 0 auto;
+}
+
 #header-background {
     width: 100%;
-    background-color: darkslategray;
+    background-color: rgb(9, 83, 117);
 }
 
 #big-name {
     text-align: center;
     font-size: max(5.4vh, 39px);
-    margin: 10px 0 20px;
+    padding: 10px 0 20px;
     letter-spacing: 0.3vw;
 }
 
@@ -58,7 +62,7 @@ header {
 }
 
 a {
-    color: darkslategrey;
+    color: #275E78;
 }
 
 /* content */
@@ -71,6 +75,9 @@ a {
     overflow: hidden;
     padding: 25px 30px;
     box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    color: #D84300;
 }
 
 #content p {
@@ -91,15 +98,19 @@ footer {
     position: fixed;
     bottom: 0px;
     line-height: max(7.5vh, 45px);
+    width: 100%;
+    background-color:rgb(9, 83, 117);
+    z-index: 2;
+    font-size: 1.6em;
 }
 
 #footer-spacing {
-    width: 66vw;
+    margin: 0 auto;
     text-align: center;
 }
 
 button {
-    margin: 0 20%;
+    margin: 0 15%;
 }
 
 
