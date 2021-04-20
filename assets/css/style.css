@@ -332,4 +332,10 @@ button i {
         top: 2px;
     }
 }
+/* cause circle image to shrink for narrow screens */
+@media screen and (max-width: 420px) {
+    #portrait-container {
+        width: min(280px, 100%);
+    }
+}
 
