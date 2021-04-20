@@ -107,10 +107,20 @@ footer {
 #footer-spacing {
     margin: 0 auto;
     text-align: center;
+    height: max(7.5vh, 45px);
 }
 
 button {
-    margin: 0 15%;
+    color: #275E78;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #D84300;
+    border-radius: 10px;
+    height: max(4.8vh, 30px);
+    margin-left: 15%;
+    margin-right: 15%;
+    vertical-align: middle;
 }
 
 
