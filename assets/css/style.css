@@ -87,6 +87,8 @@ h1 {
     position: relative;
     top: 2px;
     color: #063449;
+    
+    white-space: nowrap;
 }
 #active .icon {
     position: absolute;
