@@ -59,6 +59,7 @@ h1 {
     background-color: #d86508;
     color: #063449;
     font-size: 180%;
+    border-bottom: solid 1.5px #063449;
 }
 /* hide names */
 #nav-bar p:nth-of-type(n+2) {
@@ -332,8 +333,3 @@ button i {
     }
 }
 
-@media screen and (max-height: 590px) {
-    #content {
-        height: 52vh;
-    }
-}
