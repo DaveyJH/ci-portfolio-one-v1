@@ -19,7 +19,8 @@ a {
 
 /* title, nav and footer elements */
 header, footer {
-    font-family: "Commissioner", Arial, Helvetica, sans-serif;   
+    font-family: "Commissioner", Arial, Helvetica, sans-serif; 
+    background-color: #031F2c;  
 }
 
 /* title */
@@ -29,7 +30,7 @@ h1 {
 }
 #header-background {
     width: 100%;
-    background-color: #031F2c;
+    
 }
 #big-name {
     text-align: center;
@@ -184,7 +185,6 @@ footer {
     bottom: 0px;
     line-height: max(7.5vh, 45px);
     width: 100%;
-    background-color:#031F2c;
     z-index: 2;
     font-size: 1.6em;
 }
@@ -194,16 +194,24 @@ footer {
     height: max(7.5vh, 45px);
 }
 button {
-    color: #084966;
+    font-variant: small-caps;
+    color: #031F2c;
     font-weight: 700;
-    font-size: 1rem;
-    background-color: #D84300;
+    font-size: 60%;
+    background-color: #DD7827;
     border-radius: 10px;
     height: max(4.8vh, 30px);
     margin-left: 15%;
     margin-right: 15%;
-    vertical-align: middle;
     width: 30%;
+}
+
+button span {
+    margin: 10%;
+    font-size: 140%;
+    color: #d86508;
+    font-weight: 900;
+    text-shadow: #031F2c 0 0 12px, #021721 0 0 5px;
 }
 
 
