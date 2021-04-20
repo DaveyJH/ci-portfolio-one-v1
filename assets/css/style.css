@@ -119,15 +119,17 @@ h1 {
 #content {
     width: 100%;
     height: 77.5vh;    
-    background: url("../images/hand-keys.jpg") no-repeat;
-    background-position: 42%; 
-    background-size: 1296px 864px; 
     overflow: hidden;
     padding: 25px 30px;
     box-sizing: border-box;
     position: relative;
     z-index: 0;
     color: #D84300;
+}
+.home-page-image {
+    background: url("../images/hand-keys.jpg") no-repeat;
+    background-position: 42%; 
+    background-size: 1296px 864px; 
 }
 
 /* tag lines */
