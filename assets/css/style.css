@@ -23,6 +23,13 @@ header, footer {
     font-family: "Commissioner", Arial, Helvetica, sans-serif; 
     background-color: #031F2c;  
 }
+/* stick header element to top of scrollable pages.  Has moved hover text to more convenient position (unintentional) */
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
 
 /* title */
 h1 {
