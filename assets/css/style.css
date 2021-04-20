@@ -6,7 +6,8 @@ body {
     border: none;
     font-family: "Oxygen", Arial, Helvetica, sans-serif;
     color: #d86508;
-    background-color: rgba(8, 8, 8, 0.9);
+    /* is there a better way to do this?!  for wide screens only - probably resize contents image*/
+    background-image: linear-gradient(to right, rgba(8, 6, 7, 0.9), #080607, #080607, #080607, #080607, #080607, #080607, #080607, #080607, rgba(8, 6, 7, 0.9));
     height: 100%;
     position: relative;
 }
@@ -134,9 +135,10 @@ h1 {
     position: relative;
     font-size: max(3.5vh, 24.5px);
     font-style: oblique;
-    margin: 2.5vh 0;
+    margin: 2.5vh auto;
     background-color: rgba(8, 8, 8, 0.4);
     border-radius: 5px;
+    max-width: 1230px;
 }
 #tag-one {
     left: 120%;
