@@ -163,6 +163,7 @@ h1 {
         right: 0;
     }
 }
+
 #tag-one {
     animation-name: text-reveal-right;
     animation-delay: 500ms;
@@ -192,19 +193,26 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
+
+/* button */
 button {
     font-variant: small-caps;
-    color: #031F2c;
+    color: #063449;
     font-weight: 700;
     font-size: 60%;
     background-color: #D86508;
-    border-radius: 10px;
+    border-radius: 27px;
     height: 42px;
     margin-left: 15%;
     margin-right: 15%;
     width: 30%;
-    border: none;
-    box-shadow: #E28C46 1px 2px 7px, #E28C46 -1px -2px 7px;
+    border: 3px rgba(8, 8, 8, 0.4) outset;
+    border-top: none;
+    border-left: 1.2px rgba(8, 8, 8, 0.4) outset;
+    box-shadow: rgba(255, 80, 0, 0.7) 0 1px 7px;
+    /* shadow animation */
+    animation: shadow-shiver 1s ease 5s 5 alternate forwards;
+    box-sizing: border-box;
 }
 button span {
     margin: 10%;
@@ -217,4 +225,14 @@ button i {
     position: relative;
     bottom: 2.2px;
     font-size:110%;
+}
+
+/* shadow animaton */
+@keyframes shadow-shiver {
+    from {
+        box-shadow:  rgba(255, 80, 0, 0.7) 0 1px 7px;
+    }
+    to {
+        box-shadow: rgba(255, 80, 0) 2px 3px 20px, rgba(255, 80, 0) -2px 3px 20px;
+    }
 }
