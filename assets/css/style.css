@@ -77,8 +77,8 @@ h1 {
     color: #DD7827;
     font-size: smaller;
     text-shadow: 1px 1px 1px rgb(80, 25, 0), -1px -1px 1px rgb(80, 25, 0);
-    right: 30px;
-    top: 160px;
+    right: 2.5%;
+    top: 140px;
     z-index: 2;
 }
 
@@ -257,6 +257,7 @@ button i {
     font-size:110%;
 }
 /* shadow animaton */
+/* too distracting? compliant with aria etc.? */
 @keyframes shadow-shiver {
     from {
         box-shadow: rgba(255, 80, 0) 2px 3px 17px, rgba(255, 80, 0) -2px 3px 17px;
@@ -266,5 +267,12 @@ button i {
     }
     to {
         box-shadow: rgba(255, 80, 0) 2px 3px 17px, rgba(255, 80, 0) -2px 3px 17px;
+    }
+}
+
+/* screens wider than 1300 - done for testing and styling at present.  need to look at break points */
+@media screen and (min-width: 1305px) {
+    #nav-bar div:hover p:nth-of-type(2) {
+        right: 12.66%;
     }
 }
