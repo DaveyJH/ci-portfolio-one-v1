@@ -78,7 +78,8 @@ h1 {
     font-size: smaller;
     text-shadow: 1px 1px 1px rgb(80, 25, 0), -1px -1px 1px rgb(80, 25, 0);
     right: 2.5%;
-    top: 140px;
+    /* may need to revisit for obscure portrait screens */
+    top: 17%;
     z-index: 2;
 }
 
@@ -272,7 +273,16 @@ button i {
 
 /* screens wider than 1300 - done for testing and styling at present.  need to look at break points */
 @media screen and (min-width: 1305px) {
+    /* bring nav:hover text inward */
     #nav-bar div:hover p:nth-of-type(2) {
         right: 12.66%;
+    }
+    /* stop active:hover text reacting */
+    #active:hover>a>p:nth-of-type(2) {
+        right: 0;
+        font-size: 100%;
+        color: #063449;
+        text-shadow: none;
+        top: 2px;
     }
 }
