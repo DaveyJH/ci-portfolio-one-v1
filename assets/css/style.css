@@ -17,8 +17,8 @@ a {
     text-decoration: none;
 }
 
-/* title and nav elements */
-header {
+/* title, nav and footer elements */
+header, footer {
     font-family: "Commissioner", Arial, Helvetica, sans-serif;   
 }
 
@@ -36,7 +36,7 @@ h1 {
     font-size: max(5.4vh, 39px);
     padding: 10px 0 20px;
     letter-spacing: 0.3vw;
-    text-shadow: rgba(8, 8, 8, 0.4) 5px 5px 8px;
+    text-shadow: #E28C46 1px 2px 10px;
 }
 #surname {
     visibility: hidden;
@@ -45,45 +45,44 @@ h1 {
     top: 0;
 }
 
-/* nav */
+/* nav bar */
 #nav-bar {
     background-color: #d86508;
     color: #063449;
     font-size: 180%;
 }
 /* hide names */
-#menu p:nth-of-type(n+2) {
+#nav-bar p:nth-of-type(n+2) {
     visibility: hidden;
     position: absolute;
+}
+
+#nav-bar ul {
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    display: inline-block;
+    width: 17.5%;
 }
 
 #nav-bar p {
     margin: 10px 0;
 }
 
-#menu ul {
-    margin: 0 auto;
-    padding-left: 0;
-    text-align: center;
-}
-
-#menu li {
-    list-style-type: none;
-    display: inline-block;
-    width: 17.5%;
-}
-
+/* set styling for active page in nav bar */
 #active {
     animation-name: color-fade;
     animation-duration: 2s; 
     color: #DD7827;
-}
-
-/* animation tests */
-#active {
     font-size: 70%;
     position: relative;
 }
+
+/* animation tests */
 #active p:nth-of-type(2) {
     animation-name: color-fill;
     animation-duration: 5s;
@@ -98,7 +97,6 @@ h1 {
     left: 50%;
     margin-left: -12.5px;
 }
-
 
 /* create color fade animation from dark text to shade lighter than nav bar */
 @keyframes color-fade {
@@ -120,10 +118,6 @@ h1 {
     }
 }
 
-
-
-
-
 /* content */
 #content {
     width: 100%;
@@ -140,6 +134,7 @@ h1 {
 }
 
 #content p {
+    position: relative;
     font-size: max(3.5vh, 24.5px);
     font-style: oblique;
     margin: 2.5vh 0;
@@ -150,6 +145,8 @@ h1 {
 #tag-two {
     text-align: right;
 }
+
+
 
 /* footer */
 footer { 
@@ -173,7 +170,6 @@ button {
     color: #084966;
     font-weight: 700;
     font-size: 1rem;
-    font-family: inherit;
     background-color: #D84300;
     border-radius: 10px;
     height: max(4.8vh, 30px);
