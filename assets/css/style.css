@@ -51,6 +51,11 @@ h1 {
     color: #063449;
     font-size: 180%;
 }
+/* hide names */
+#menu p:nth-of-type(n+2) {
+    visibility: hidden;
+    position: absolute;
+}
 
 #nav-bar p {
     margin: 10px 0;
@@ -74,6 +79,25 @@ h1 {
     color: #DD7827;
 }
 
+/* animation tests */
+#active {
+    font-size: 70%;
+    position: relative;
+}
+#active p:nth-of-type(2) {
+    visibility: visible;
+    position: relative;
+    top: 2px;
+    color: #063449;
+}
+#active .icon {
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -12.5px;
+}
+
+
 /* create color fade animation */
 @keyframes color-fade {
     from {
@@ -85,11 +109,7 @@ h1 {
 }
 
 
-/* hide names */
-#menu p:nth-of-type(n+2) {
-    visibility: hidden;
-    position: absolute;
-}
+
 
 
 /* content */
