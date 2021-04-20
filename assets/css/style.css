@@ -225,6 +225,7 @@ button:hover {
 }
 button:active {
     box-shadow: rgba(80, 255, 0) 2px 3px 17px, rgba(80, 255, 0) -2px 3px 17px;
+    outline: none;
 }
 button span {
     margin: 10%;
