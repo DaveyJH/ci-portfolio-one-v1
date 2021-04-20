@@ -71,6 +71,16 @@ h1 {
 #nav-bar p {
     margin: 10px 0;
 }
+/* hover in nav */
+#nav-bar div:hover p:nth-of-type(2) {
+    visibility: visible;
+    color: #DD7827;
+    font-size: smaller;
+    text-shadow: 1px 1px 1px rgb(80, 25, 0), -1px -1px 1px rgb(80, 25, 0);
+    right: 30px;
+    top: 160px;
+    z-index: 2;
+}
 
 /* set styling for active page in nav bar */
 #active {
@@ -80,6 +90,14 @@ h1 {
     font-size: 70%;
     position: relative;
 }
+/* stop text moving on active hover */
+#active:hover>a>p:nth-of-type(2) {
+    right: 0;
+    font-size: 100%;
+    color: #063449;
+    text-shadow: none;
+    top: 2px;
+}
 #active p:nth-of-type(2) {
     animation-name: color-fill;
     animation-duration: 5s;
@@ -87,7 +105,6 @@ h1 {
     position: relative;
     top: 2px;
     color: #063449;
-    
     white-space: nowrap;
 }
 #active .icon {
@@ -239,7 +256,6 @@ button i {
     bottom: 2.2px;
     font-size:110%;
 }
-
 /* shadow animaton */
 @keyframes shadow-shiver {
     from {
