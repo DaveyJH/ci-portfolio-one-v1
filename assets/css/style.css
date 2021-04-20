@@ -180,10 +180,10 @@ h1 {
 
 /* footer */
 footer { 
-    height: max(7.5vh, 45px);
+    height: 66px;
     position: fixed;
     bottom: 0px;
-    line-height: max(7.5vh, 45px);
+    line-height: 58px;
     width: 100%;
     z-index: 2;
     font-size: 1.6em;
@@ -191,27 +191,30 @@ footer {
 #footer-spacing {
     margin: 0 auto;
     text-align: center;
-    height: max(7.5vh, 45px);
 }
 button {
     font-variant: small-caps;
     color: #031F2c;
     font-weight: 700;
     font-size: 60%;
-    background-color: #DD7827;
+    background-color: #D86508;
     border-radius: 10px;
-    height: max(4.8vh, 30px);
+    height: 42px;
     margin-left: 15%;
     margin-right: 15%;
     width: 30%;
+    border: none;
+    box-shadow: #E28C46 1px 2px 7px, #E28C46 -1px -2px 7px;
 }
-
 button span {
     margin: 10%;
     font-size: 140%;
-    color: #d86508;
+    color: #DD7827;
     font-weight: 900;
     text-shadow: #031F2c 0 0 12px, #021721 0 0 5px;
 }
-
-
+button i {
+    position: relative;
+    bottom: 2.2px;
+    font-size:110%;
+}
