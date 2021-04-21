@@ -130,12 +130,16 @@ h1 {
     z-index: 0;
     color: #D84300;
 }
+.content-lower {
+    padding-bottom: 66px;
+}
+
+/* home page content */
 .home-page-image {
     background: url("../images/hand-keys.jpg") no-repeat;
     background-position: 42%; 
     background-size: 1296px 864px; 
 }
-
 /* tag lines */
 #content>div {
     overflow:hidden;
@@ -161,7 +165,6 @@ h1 {
     text-align: right;
     right: 120%;
 }
-
 /* tag line animations */
 @keyframes text-reveal-right {
     from {
@@ -179,7 +182,6 @@ h1 {
         right: 0;
     }
 }
-
 #tag-one {
     animation-name: text-reveal-right;
     animation-delay: 500ms;
@@ -200,7 +202,6 @@ h1 {
     margin: 30px auto;
     width: 100%;
 }
-
 /* brief image */
 #image-container {
     width: 280px;
@@ -217,7 +218,6 @@ h1 {
     height: 100%;
     border-radius: 50%;
 }
-
 /* brief text passage */
 #brief-text {
     text-align: justify;
@@ -242,7 +242,6 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-
 /* button */
 button {
     font-variant: small-caps;
@@ -296,6 +295,7 @@ button i {
     }
 }
 
+/* media queries */
 /* screens wider than 1300 - done for testing and styling at present.  need to look at break points */
 @media screen and (min-width: 1305px) {
     /* bring nav:hover text inward */
