@@ -1,4 +1,12 @@
 # Code Institue - Portfolio Project 1 - HTML/CSS Essentials
+## ***Bug List***
+- None found
+
+## ***To Do List***
+- Padding around content is too small
+- CV button seems out of style with the rest of the site.
+
+#
 In this project I intend to provide a professional style website to advertise myself to prospective employers.  The structure should allow users to access key sections at all times, with easy navigation to more information if desired.
 
 The surface design should draw attention to calls to action, be of a professional presentation, and demonstrate a level of competency working with HTML and CSS code.
