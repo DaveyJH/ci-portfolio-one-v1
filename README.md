@@ -1,6 +1,9 @@
 # Code Institue - Portfolio Project 1 - HTML/CSS Essentials
 ## ***Bug List***
-- Bug not fixed! Nav items not visible on some loads. Refreshing page seems to clear the bug.
+- Bug symptoms: A few times when loading the application, all nav bar icons do not appear.
+    - *Remove &#34;initial&#34; value from &#60;a&#62; elements*
+    - *Add colors to individual &#60;a&#62; elements*
+        - **Not 100% certain this fixes bug, leaving for testing**
 
 ## ***To Do List***
 - **Complete content additions**
@@ -9,6 +12,7 @@
 - CV button seems out of style with the rest of the site
 - Nav:hover text appears too far away from title
 - No hover text from linkedin/github
+- Navbar links are wider than they appear, could lead to mis-click.
 - *Animation on home page is not emotive enough*
 - *Tag lines to appear as if typed, one letter at a time*
 
