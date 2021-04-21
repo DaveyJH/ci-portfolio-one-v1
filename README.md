@@ -32,3 +32,17 @@ I hope to present a clean and professional, easy to navigate platform which will
 #
 <!-- photo credits -->
 Mobile Homepage Photo by [Quinton Coetzee](https://unsplash.com/@quincoetzee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/keyboard-code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+
+back-binary
+Photo by <a href="https://unsplash.com/@daniellanner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Lanner</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+man-beats-laptop
+Photo by <a href="https://unsplash.com/@jefflssantos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jefferson Santos</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+book-specs
+Photo by <a href="https://unsplash.com/@kvncnls?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Canlas</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+code-lock
+Photo by <a href="https://unsplash.com/@arielbesagar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ariel</a> on <a href="https://unsplash.com/s/photos/code-lock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  

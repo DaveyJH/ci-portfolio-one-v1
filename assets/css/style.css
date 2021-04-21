@@ -134,6 +134,28 @@ h1 {
     padding-bottom: 66px;
 }
 
+/* content images */
+#content:not(.home-page-image) {
+    /*  */
+    background-size: 100%;
+    min-height: 77.5vh;
+    height: max(100%);
+    overflow: visible;
+    background-repeat: no-repeat;
+}
+#content.brief {
+    background-image: url("../images/back-binary.jpg");
+}
+#content.education {
+    background-image: url("../images/man-beats-laptop.jpg");
+}
+#content.work-exp {
+    background-image: url("../images/code-lock.jpg")
+}
+#content.portfolio {
+    background-image: url("../images/matrix-one.jpg");
+}
+
 /* home page content */
 .home-page-image {
     background: url("../images/hand-keys.jpg") no-repeat;
@@ -406,5 +428,10 @@ button i {
     #surname {
         visibility: visible;
         position: relative;
+    }
+    #brief-text {
+        width: 66%;
+        margin-left: auto;
+        margin-right:auto;
     }
 }
