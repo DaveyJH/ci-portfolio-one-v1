@@ -397,3 +397,14 @@ button i {
         margin-left: -20px;
     }
 }
+/* display full name on wider screens */
+@media screen and (min-width: 800px) {
+    #first-name-end {
+        visibility: hidden;
+        position: absolute;
+    }
+    #surname {
+        visibility: visible;
+        position: relative;
+    }
+}
