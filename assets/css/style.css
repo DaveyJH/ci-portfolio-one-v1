@@ -202,7 +202,7 @@ h1 {
 }
 
 /* brief image */
-#portrait-container {
+#image-container {
     width: 280px;
     height: 280px;
     border: #d86508 3px solid;
@@ -218,12 +218,14 @@ h1 {
     border-radius: 50%;
 }
 
-/* text passage */
+/* brief text passage */
 #brief-text {
     text-align: justify;
     text-indent: 30px;
     font-size: 1.6em;
 }
+
+/* portfolio content */
 
 
 /* footer */
@@ -311,7 +313,7 @@ button i {
 }
 /* cause circle image to shrink for narrow screens */
 @media screen and (max-width: 420px) {
-    #portrait-container {
+    #image-container {
         width: min(280px, 100%);
     }
 }
