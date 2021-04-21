@@ -3,8 +3,14 @@
 - None found
 
 ## ***To Do List***
+- **Complete content additions**
+- **Find images and finalise styles**
 - Padding around content is too small
-- CV button seems out of style with the rest of the site.
+- CV button seems out of style with the rest of the site
+- Nav:hover text appears too far away from title
+- No hover text from linkedin/github
+- *Animation on home page is not emotive enough*
+- *Tag lines to appear as if typed, one letter at a time*
 
 #
 In this project I intend to provide a professional style website to advertise myself to prospective employers.  The structure should allow users to access key sections at all times, with easy navigation to more information if desired.
