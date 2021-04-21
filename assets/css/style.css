@@ -65,6 +65,7 @@ h1 {
 #nav-bar p:nth-of-type(n+2) {
     visibility: hidden;
     position: absolute;
+    font-size: 1.008px;
 }
 #nav-bar ul {
     margin: 0 auto;
@@ -86,6 +87,9 @@ h1 {
     animation-duration: 2s; 
     color: #DD7827;
     position: relative;
+}
+#active p:nth-of-type(2) {
+    font-size: 100%;
 }
 /* stop text moving on active hover */
 #active:hover>a>p:nth-of-type(2) {
