@@ -1,17 +1,27 @@
-# Code Institute - Porfolio Project 1
- Code Institue - Portfolio Project 1 - HTML/CSS Essentials
+# Code Institue - Portfolio Project 1 - HTML/CSS Essentials
+In this project I intend to provide a professional style website to advertise myself to prospective employers.  The structure should allow users to access key sections at all times, with easy navigation to more information if desired.
+
+The surface design should draw attention to calls to action, be of a professional presentation, and demonstrate a level of competency working with HTML and CSS code.
+ 
 #
 ## A Personal Profile For Prospective Employers
 
-In this project, I intend to ceate a website which promotes me as a professional.  I hope to present a clean, easy to navigate, platform which will: 
-- Give a brief introduction
+I hope to present a clean and professional, easy to navigate platform which will:
+- Give a brief introduction to me
 - Convey key information about me and my professional skills
 - Provide an easily-accessible link to my CV in PDF format
-- Display a few basic projects that I have worked on
-- Provide links to social-networking/github profiles
+- Display a few basic projects that I have worked
+- Provide links to social-networking/github profiles (possibly e-mail/phone in the future)
 
 **The main objective of the application is to portray myself in a professional manner and enable potential employers easy access to my credentials.**
+#
+## UX Objectives
+- *As a professional recruiter, I wish to access a professional CV with as little interaction as possible.  I have very little time and so clear and quick access is essential*
+- *As a potential employer, I wish to learn a little about my prospective employee. I am happy to spend a little time investigating but hope the information is well presented and easy to navigate*
+- *I have a project I wish to collaborate on, I want to find someone who has the right attitude and skills to complete my objectives.  The way they present themselves will impact heavily on my decision, I will spend a lot of time investigating the various aspects of the application* 
 
+[Scratch Pads](assets/prep/filler.txt)\
+[Wireframes](assets/prep/filler.txt)
 #
 <!-- code credits -->
 - removing border from button when clicked.  border is incorrect, correct term is outline.
