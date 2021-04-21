@@ -200,9 +200,13 @@ h1 {
 /* general content */
 div[id$="-content"] {
     height: 95%;
-    padding: 20px;
+    padding: 15x;
     box-sizing: border-box;
 }
+/* div[id$="-content"] div:first-of-type {
+    padding: 40px;
+    box-sizing: border-box;
+} */
 #left-content {
     float: left;
     width: 33%;
@@ -219,6 +223,11 @@ div[id$="-content"] {
 }
 #mid-content {
     width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-info {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
