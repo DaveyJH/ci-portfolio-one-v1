@@ -16,9 +16,10 @@ I hope to present a clean and professional, easy to navigate platform which will
 **The main objective of the application is to portray myself in a professional manner and enable potential employers easy access to my credentials.**
 #
 ## UX Objectives
-- *As a professional recruiter, I wish to access a professional CV with as little interaction as possible.  I have very little time and so clear and quick access is essential*
-- *As a potential employer, I wish to learn a little about my prospective employee. I am happy to spend a little time investigating but hope the information is well presented and easy to navigate*
-- *I have a project I wish to collaborate on, I want to find someone who has the right attitude and skills to complete my objectives.  The way they present themselves will impact heavily on my decision, I will spend a lot of time investigating the various aspects of the application* 
+- *"As a professional recruiter, I wish to access a professional CV with as little interaction as possible.  I have very little time and so clear and quick access is essential."*
+- *"As a potential employer, I wish to learn a little about my prospective employee. I am happy to spend a little time investigating but hope the information is well presented and easy to navigate."*
+- *"I have a project I wish to collaborate on, I want to find someone who has the right attitude and skills to complete my objectives.  The way they present themselves will impact heavily on my decision, I will spend a lot of time investigating the various aspects of the application."*
+- *"I have met Dave, I am interested in what he does.  He suggested I take a look at this site.  Depending on my interaction, I may advise others to take a look.  Any one of us may have a professional interest and so this experience could open doors to future prospects."*
 
 [Scratch Pads](assets/prep/filler.txt)\
 [Wireframes](assets/prep/filler.txt)
