@@ -1,6 +1,6 @@
 # Code Institue - Portfolio Project 1 - HTML/CSS Essentials
 ## ***Bug List***
-- None found
+- Bug not fixed! Nav items not visible on some loads. Refreshing page seems to clear the bug.
 
 ## ***To Do List***
 - **Complete content additions**
@@ -11,6 +11,13 @@
 - No hover text from linkedin/github
 - *Animation on home page is not emotive enough*
 - *Tag lines to appear as if typed, one letter at a time*
+
+## ***Comments From Users***
+- *Non-professional user*:
+    - Download button is easy to access accidentally, not clear enough that it starts a download
+    - Text on hover is too far away
+    - Think image above active page should be central to 
+    - Love the green colour on clicking the download
 
 #
 In this project I intend to provide a professional style website to advertise myself to prospective employers.  The structure should allow users to access key sections at all times, with easy navigation to more information if desired.
@@ -49,7 +56,7 @@ Mobile Homepage Photo by [Quinton Coetzee](https://unsplash.com/@quincoetzee?utm
 
 
 back-binary
-Photo by <a href="https://unsplash.com/@daniellanner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Lanner</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by [Daniel Lanner](https://unsplash.com/@daniellanner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
 man-beats-laptop
 Photo by <a href="https://unsplash.com/@jefflssantos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jefferson Santos</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
