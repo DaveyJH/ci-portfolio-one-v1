@@ -19,6 +19,7 @@
 ## ***Comments From Users***
 - *Non-professional user*:
     - Download button is easy to access accidentally, not clear enough that it starts a download
+        - Make cursor &#34;pointer&#34; *not helpful for mobile users*
     - Text on hover is too far away
     - Think image above active page should be central to 
     - Love the green colour on clicking the download

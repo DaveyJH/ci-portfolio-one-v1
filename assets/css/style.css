@@ -309,6 +309,7 @@ button {
 }
 button:hover {
     box-shadow: rgba(255, 0, 0) 2px 3px 17px, rgba(255, 0, 0) -2px 3px 17px;
+    cursor: pointer;
 }
 button:active {
     box-shadow: rgba(80, 255, 0) 2px 3px 17px, rgba(80, 255, 0) -2px 3px 17px;
