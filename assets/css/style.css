@@ -345,25 +345,13 @@ footer a {
 }
 
 /* media queries */
-/* screens wider than 1300 - done for testing and styling at present.  need to look at break points */
-@media screen and (min-width: 1305px) {
-    /* bring nav:hover text inward */
-    #nav-bar div:hover p:nth-of-type(2) {
-        right: 12.66%;
-    }
-    /* stop active:hover text reacting */
-    #active:hover>a>p:nth-of-type(2) {
-        right: 0;
-        font-size: 100%;
-        color: #063449;
-        text-shadow: none;
-        top: 2px;
-    }
-}
-/* cause circle image to shrink for narrow screens */
+/* screen width < 420px */
 @media screen and (max-width: 420px) {
     .image-container {
         width: min(280px, 100%);
+    }
+    #active p:nth-of-type(2) {
+        font-size: 1px;
     }
 }
 /* screen wider than 450px */
@@ -374,7 +362,7 @@ footer a {
     color: #DD7827;
     font-size: smaller;
     text-shadow: 1px 1px 1px rgb(80, 25, 0), -1px -1px 1px rgb(80, 25, 0);
-    right: 2.5%;
+    left: calc(80% - 30px);
     /* may need to revisit for obscure portrait screens */
     top: 17%;
     z-index: 2;
@@ -389,7 +377,7 @@ footer a {
     }
     /* stop text moving on active hover */
     #active:hover>a>p:nth-of-type(2) {
-        right: 0;
+        left: 0;
         font-size: 100%;
         color: #063449;
         text-shadow: none;
@@ -411,6 +399,8 @@ footer a {
         margin-left: -20px;
     }
 }
+
+
 /* display full name on wider screens */
 @media screen and (min-width: 800px) {
     #first-name-end {
@@ -457,4 +447,16 @@ footer a {
         margin-right: auto;
     }
    
+}
+/* screens wider than 1300 - done for testing and styling at present.  need to look at break points */
+@media screen and (min-width: 1305px) {
+    
+    /* stop active:hover text reacting */
+    #active:hover>a>p:nth-of-type(2) {
+        left: 0;
+        font-size: 100%;
+        color: #063449;
+        text-shadow: none;
+        top: 2px;
+    }
 }
