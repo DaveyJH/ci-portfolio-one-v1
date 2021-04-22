@@ -290,18 +290,21 @@ footer {
 /* button */
 button {
     font-variant: small-caps;
-    color: #063449;
+    /* color: #063449; */
+    color: #D86508;
     font-weight: 700;
     font-size: 60%;
-    background-color: #D86508;
+    /* background-color: #D86508; */
+    background-color: #063449;
     border-radius: 27px;
     height: 42px;
     margin-left: 15%;
     margin-right: 15%;
     width: min(300px, 30%);
-    border: 3px rgba(8, 8, 8, 0.4) outset;
-    border-top: none;
-    border-left: 1.2px rgba(8, 8, 8, 0.4) outset;
+    border-style: ridge;
+    border-color:rgba(8, 8, 8, 0.4) rgba(180, 180, 180, 0.1) rgba(180, 180, 180, 0.1) rgba(8, 8, 8, 0.4);
+    border-width: 3px 1px 3px 5px;
+    
     box-shadow: rgba(255, 80, 0) 2px 3px 17px, rgba(255, 80, 0) -2px 3px 17px;
     /* shadow animation */
     animation: shadow-shiver 2s ease 4.7s 3;
@@ -313,13 +316,21 @@ button:hover {
 }
 button:active {
     box-shadow: rgba(80, 255, 0) 2px 3px 17px, rgba(80, 255, 0) -2px 3px 17px;
-    outline: none;
+    outline: none; 
+    background-color: #052737; 
+    border-color:rgba(8, 8, 8, 0.2) rgba(120, 120, 120, 0.2) rgba(120, 120, 120, 0.2) rgba(8, 8, 8, 0.2);
+    border-style:groove;
 }
+
+button:focus {
+    outline: 0;
+}   
+
 button span {
     margin: 10%;
     font-size: 140%;
     color: #DD7827;
-    font-weight: 900;
+    font-weight: 700;
     text-shadow: #031F2c 0 0 12px, #021721 0 0 5px;
 }
 button i {
@@ -459,4 +470,17 @@ footer a {
         text-shadow: none;
         top: 2px;
     }
+}
+
+#end {
+    padding: 25%;
+}
+#end a {
+    font-size: 200%;
+    background-color: rgba(80, 255, 0, 0.8);
+    border-radius: 10px;
+    font-variant: small-caps;
+    font-weight: 900;
+    color: black;
+    text-shadow:rgba(255, 80, 0, 0.7) 2px 2px 4px;   
 }

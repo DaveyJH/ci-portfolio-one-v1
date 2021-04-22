@@ -1,3 +1,7 @@
+# ***I have done more research and have decided the style is too basic and cumbersome to fit the project requirements.  With more research completed, I intend to use some of these ideas in the final version. Lesson learned - DO RESEARCH FIRST!***
+
+[**THE END!!**](assets/prep/end.html)
+
 # Code Institue - Portfolio Project 1 - HTML/CSS Essentials
 ## ***Bug List***
 - Bug symptoms: A few times when loading the application, all nav bar icons do not appear.
@@ -10,7 +14,6 @@
 - **Find images and finalise styles**
 - Padding around content is too small
 - CV button seems out of style with the rest of the site
-- Nav:hover text appears too far away from title
 - No hover text from linkedin/github
 - Navbar links are wider than they appear, could lead to mis-click.
 - *Animation on home page is not emotive enough*
@@ -19,8 +22,10 @@
 ## ***Comments From Users***
 - *Non-professional user*:
     - Download button is easy to access accidentally, not clear enough that it starts a download
+        - Alter colour and text in button
         - Make cursor &#34;pointer&#34; *not helpful for mobile users*
     - Text on hover is too far away
+        - Bring text in toward title
     - Think image above active page should be central to 
     - Love the green colour on clicking the download
 
@@ -50,13 +55,14 @@ I hope to present a clean and professional, easy to navigate platform which will
 [Scratch Pads](assets/prep/filler.txt)\
 [Wireframes](assets/prep/filler.txt)
 #
-<!-- code credits -->
-- removing border from button when clicked.  border is incorrect, correct term is outline.
-    - [Stack Overflow](https://stackoverflow.com/questions/39524688/how-to-remove-the-focus-border-of-button-when-click/39524745)
+### **Code Credits**
+- Removing border from button when clicked.  Border is incorrect, correct term is outline.  *Should not remove outline from focus elements for assistive technologies.*
+    - [Stack Overflow - How to remove the focus border of a button when clicked](https://stackoverflow.com/questions/39524688/how-to-remove-the-focus-border-of-button-when-click/39524745)
 
         - [Jordi Flores](https://stackoverflow.com/users/6503739/jordi-flores?tab=profile)
 #
-<!-- photo credits -->
+
+### **Photo Credits**
 Mobile Homepage Photo by [Quinton Coetzee](https://unsplash.com/@quincoetzee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/keyboard-code?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 
